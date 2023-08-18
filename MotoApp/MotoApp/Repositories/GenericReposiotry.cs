@@ -1,5 +1,4 @@
-﻿
-namespace MotoApp.Repositories
+﻿namespace MotoApp.Repositories
 {
     using MotoApp.Entites;
 
@@ -8,6 +7,8 @@ namespace MotoApp.Repositories
 
     {
         private readonly List<T> _items = new();
+
+
         public T GetById(int id)
         {
             return _items.Single(item => item.Id == id);
@@ -29,20 +30,12 @@ namespace MotoApp.Repositories
             foreach (var employee in _items)
             {
                 Console.WriteLine(employee);
-
             }
         }
-
-
-
-
-
 
         public T CreateNewItem()
         {
             return new T();
         }
-
-
     }
 }
