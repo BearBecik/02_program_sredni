@@ -1,0 +1,14 @@
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\bin\Debug\net7.0\MotoApp.exe
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\bin\Debug\net7.0\MotoApp.deps.json
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\bin\Debug\net7.0\MotoApp.runtimeconfig.json
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\bin\Debug\net7.0\MotoApp.dll
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\bin\Debug\net7.0\MotoApp.pdb
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\obj\Debug\net7.0\MotoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\obj\Debug\net7.0\MotoApp.AssemblyInfoInputs.cache
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\obj\Debug\net7.0\MotoApp.AssemblyInfo.cs
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\obj\Debug\net7.0\MotoApp.csproj.CoreCompileInputs.cache
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\obj\Debug\net7.0\MotoApp.dll
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\obj\Debug\net7.0\refint\MotoApp.dll
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\obj\Debug\net7.0\MotoApp.pdb
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\obj\Debug\net7.0\MotoApp.genruntimeconfig.cache
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp\obj\Debug\net7.0\ref\MotoApp.dll

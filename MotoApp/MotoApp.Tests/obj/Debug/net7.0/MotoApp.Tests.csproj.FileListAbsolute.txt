@@ -1,0 +1,6 @@
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp.Tests\bin\Debug\net7.0\CoverletSourceRootsMapping
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp.Tests\obj\Debug\net7.0\MotoApp.Tests.csproj.AssemblyReference.cache
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp.Tests\obj\Debug\net7.0\MotoApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp.Tests\obj\Debug\net7.0\MotoApp.Tests.AssemblyInfoInputs.cache
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp.Tests\obj\Debug\net7.0\MotoApp.Tests.AssemblyInfo.cs
+C:\prog_test\GOTOIT\03 program sredni\MotoApp\MotoApp.Tests\obj\Debug\net7.0\MotoApp.Tests.csproj.CoreCompileInputs.cache
