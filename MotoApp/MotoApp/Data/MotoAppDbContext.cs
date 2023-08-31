@@ -11,7 +11,7 @@
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseInMemoryDatabase("StorageAppDb");
+            optionsBuilder.UseInMemoryDatabase("StorageAppDb");             //nazwa bazy danych w pamięci
         }
     }
 }

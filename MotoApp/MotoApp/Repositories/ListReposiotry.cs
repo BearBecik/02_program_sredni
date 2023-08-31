@@ -2,14 +2,18 @@
 {
     using MotoApp.Entites;
 
-    public class GenericReposiotry<T>
-        where T : class, IEntity, new()
+    public class ListReposiotry<T> : IRepository<T>
+        where T : class, IEntity, new()     //new() oznacza, że klasa musi posiadac bezparametrowy konstruktor, jeżeli klasa ma też inne konstruktory
 
     {
         private readonly List<T> _items = new();
 
+        public IEnumerable<T> GetAll()
+        {
+           return _items.ToList();
+        }
 
-        public T GetById(int id)
+    public T GetById(int id)
         {
             return _items.Single(item => item.Id == id);
         }
@@ -27,10 +31,10 @@
 
         public void Save()
         {
-            foreach (var employee in _items)
-            {
-                Console.WriteLine(employee);
-            }
+            //foreach (var employee in _items)
+            //{
+            //    Console.WriteLine(employee);
+            //}
         }
 
         public T CreateNewItem()

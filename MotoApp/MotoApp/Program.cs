@@ -2,18 +2,32 @@
 using MotoApp.Entites;
 using MotoApp.Repositories;
 
-//var employeeRepository = new GenericReposiotry<Employee>();
-//employeeRepository.Add(new Employee { FirstName = "Arek" });
-//employeeRepository.Add(new Employee { FirstName = "Paweł" });
-//employeeRepository.Add(new Employee { FirstName = "Ania" });
-//employeeRepository.Save();
+var employeeRepository = new SqlRepository<Employee>(new MotoAppDbContext());
+AddEmployees(employeeRepository);
+AddManagers(employeeRepository);
+WriteAllToConsole(employeeRepository);
 
-var sqlRepository = new SqlRepository(new MotoAppDbContext());
-sqlRepository.Add(new Employee { FirstName = "Arek" });
-sqlRepository.Add(new Employee { FirstName = "Paweł" });
-sqlRepository.Add(new Employee { FirstName = "Ania" });
-sqlRepository.Save();
-var emp = sqlRepository.GetById(2);
-Console.WriteLine(emp);
+static void AddEmployees(IRepository<Employee> employeeRepository)
+{
+    employeeRepository.Add(new Employee { FirstName = "Arek" });
+    employeeRepository.Add(new Employee { FirstName = "Paweł" });
+    employeeRepository.Add(new Employee { FirstName = "Ania" });
+    employeeRepository.Save();
+}
 
+static void AddManagers(IWriteRepository<Employee> employeeRepository)
+{
+    employeeRepository.Add(new Manager { FirstName = "Franciszek" });
+    employeeRepository.Add(new Manager { FirstName = "Wiesław" });
+    employeeRepository.Add(new Manager { FirstName = "Hanna" });
+    employeeRepository.Save();
+}
 
+static void WriteAllToConsole(IReadRepository<Employee> repository)
+{
+    var items = repository.GetAll();
+    foreach (var item in items)
+    {
+        Console.WriteLine(item);
+    }
+}
