@@ -1,6 +1,4 @@
-﻿using MotoApp.Entites;
-
-namespace MotoApp.Repositories
+﻿namespace MotoApp.Repositories
 {
     public interface IWriteRepository<in T>
     {

@@ -6,6 +6,6 @@ namespace MotoApp.Repositories
     {
         IEnumerable<T> GetAll();
 
-        T GetById(int id);
+        T? GetById(int id);
     }
 }
